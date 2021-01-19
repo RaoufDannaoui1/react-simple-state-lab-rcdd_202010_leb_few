@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Cell from './Cell.js'
 Matrix.defaultProps = {
   values: (() => {
     const defRow = ['#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00', '#F00']
